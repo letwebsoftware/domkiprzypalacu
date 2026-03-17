@@ -30,6 +30,7 @@
             <a href="#galeria" class="hover:text-[#3b5a40]">Galeria</a>
             <a href="#opinie" class="hover:text-[#3b5a40]">Opinie</a>
             <a href="#faq" class="hover:text-[#3b5a40]">FAQ</a>
+            <a href="{{ route('blog') }}" class="hover:text-[#3b5a40]">Blog</a>
         </nav>
 
         <a href="#kontakt" class="inline-flex items-center justify-center rounded-full bg-[#3b5a40] px-4 py-2 text-sm font-extrabold text-white shadow-[0_10px_24px_rgba(52,85,58,0.25)] transition hover:-translate-y-px hover:bg-[#2c4732]">Zarezerwuj</a>
