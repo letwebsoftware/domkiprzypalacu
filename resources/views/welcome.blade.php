@@ -66,13 +66,13 @@
                         <label for="name" class="pl-1 text-[11px] font-bold uppercase tracking-[0.08em] text-[#516150]">Imię i nazwisko</label>
                         <input id="name" name="name" type="text" placeholder="Jan Kowalski" required class="w-full rounded-xl border border-[#ddd2bf] bg-[#fffefb] px-3.5 py-3 text-[15px] text-[#2d3b2e] outline-none ring-[#3d5a41]/15 transition focus:border-[#9ab19e] focus:ring-4">
                     </div>
-                    <div class="grid gap-1">
+                    <div class="grid min-w-0 gap-1">
                         <label for="arrival" class="pl-1 text-[11px] font-bold uppercase tracking-[0.08em] text-[#516150]">Przyjazd</label>
-                        <input id="arrival" name="arrival" type="date" required class="w-full rounded-xl border border-[#ddd2bf] bg-[#fffefb] px-3.5 py-3 text-[15px] text-[#2d3b2e] outline-none ring-[#3d5a41]/15 transition focus:border-[#9ab19e] focus:ring-4">
+                        <input id="arrival" name="arrival" type="date" required class="w-full max-w-full rounded-xl border border-[#ddd2bf] bg-[#fffefb] px-3.5 py-3 text-base text-[#2d3b2e] outline-none ring-[#3d5a41]/15 transition focus:border-[#9ab19e] focus:ring-4 sm:text-[15px]">
                     </div>
-                    <div class="grid gap-1">
+                    <div class="grid min-w-0 gap-1">
                         <label for="departure" class="pl-1 text-[11px] font-bold uppercase tracking-[0.08em] text-[#516150]">Wyjazd</label>
-                        <input id="departure" name="departure" type="date" required class="w-full rounded-xl border border-[#ddd2bf] bg-[#fffefb] px-3.5 py-3 text-[15px] text-[#2d3b2e] outline-none ring-[#3d5a41]/15 transition focus:border-[#9ab19e] focus:ring-4">
+                        <input id="departure" name="departure" type="date" required class="w-full max-w-full rounded-xl border border-[#ddd2bf] bg-[#fffefb] px-3.5 py-3 text-base text-[#2d3b2e] outline-none ring-[#3d5a41]/15 transition focus:border-[#9ab19e] focus:ring-4 sm:text-[15px]">
                     </div>
                     <div class="grid gap-1">
                         <label for="people" class="pl-1 text-[11px] font-bold uppercase tracking-[0.08em] text-[#516150]">Osoby</label>
